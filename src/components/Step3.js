@@ -42,7 +42,8 @@ class Step3 extends Component {
                         </div>
                         <div className="roof">
                             <img alt="roofType3" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>
-
+                        </div>
+                    </Form>
                     <h3>How many stories in this building?</h3>
                     <div className="roof">
                         <div>
@@ -90,6 +91,7 @@ class Step3 extends Component {
                         <Button bsStyle="success" id="nextButton">Proceed</Button>
                     </Link>
                 </div>
+            </div>
         )
     }
 }
