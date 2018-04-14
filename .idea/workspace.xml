@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="98c9001a-e773-459f-acd0-ec86cb24592a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Step1.js" afterPath="$PROJECT_DIR$/src/components/Step1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Step1Confirm.js" afterPath="$PROJECT_DIR$/src/components/Step1Confirm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Step1Photo.js" afterPath="$PROJECT_DIR$/src/components/Step1Photo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Step3.js" afterPath="$PROJECT_DIR$/src/components/Step3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/OtherCameraApp.js" afterPath="$PROJECT_DIR$/src/components/OtherCameraApp.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,11 +63,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Step2.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Step2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Step2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state relative-caret-position="289">
+              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OtherCameraApp.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/OtherCameraApp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -122,18 +130,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <marker date="1523733554000" expanded="true" signature="91:367" ph="{&quot;node-sass-chokidar&quot;: &quot;^1.2.2&quot;...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -171,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Step3.js" />
         <option value="$PROJECT_DIR$/src/components/Step2.js" />
+        <option value="$PROJECT_DIR$/src/components/OtherCameraApp.js" />
       </list>
     </option>
   </component>
@@ -312,12 +309,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523690232853</updated>
       <workItem from="1523690234516" duration="1165000" />
-      <workItem from="1523691472877" duration="14980000" />
+      <workItem from="1523691472877" duration="15796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16145000" />
+    <option name="totallyTimeSpent" value="16961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="23" width="1385" height="877" extended-state="6" />
@@ -607,8 +604,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Step2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        <state relative-caret-position="289">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/OtherCameraApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
