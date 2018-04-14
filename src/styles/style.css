@@ -1,5 +1,45 @@
+body {
+  text-align: center; }
+
 .mainContainer {
   width: 1024px;
-  height: 100vw;
+  height: 100vh;
   margin: 0 auto;
   background-color: darkolivegreen; }
+
+.imageGallery {
+  height: 200px;
+  width: 80%;
+  margin: 20vh auto 0 auto; }
+  .imageGallery img {
+    height: 150px;
+    width: 200px;
+    margin: 0 15px; }
+
+#nextButton {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 50px;
+  color: white; }
+
+#nextButton:hover {
+  width: 175px;
+  background-color: darkgreen; }
+
+a:hover {
+  text-decoration: none; }
+
+.directions {
+  margin-top: 100px; }
+
+.uploadImageBox {
+  height: 50%;
+  width: 50%;
+  margin: 20px auto;
+  border: 2px dashed; }
+  .uploadImageBox img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5; }
