@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Camera from 'react-camera';
-import $ from 'jquery'; 
 
 class CameraApp extends Component {
 
@@ -12,7 +11,7 @@ class CameraApp extends Component {
   gotPic(event) {
         if(event.target.files.length == 1 && 
            event.target.files[0].type.indexOf("image/") == 0) {
-            $("#yourimage").attr("src",URL.createObjectURL(event.target.files[0]));
+            // $("#yourimage").attr("src",URL.createObjectURL(event.target.files[0]));
         }
   }
 
