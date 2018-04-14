@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Camera from 'react-camera';
-import $ from 'jquery'; 
 
 class CameraApp extends Component {
 
@@ -10,7 +9,7 @@ class CameraApp extends Component {
   }
 
   gotPic(event) {
-        if(event.target.files.length == 1 && 
+        if(event.target.files.length == 1 &&
            event.target.files[0].type.indexOf("image/") == 0) {
             $("#yourimage").attr("src",URL.createObjectURL(event.target.files[0]));
         }
@@ -32,7 +31,7 @@ class CameraApp extends Component {
 
         <label for="takePictureField">Take Picture</label>
         <input type="file" accept="image/*" id="takePictureField" onChange={this.gotPic}/>
-        
+
         <img id="yourimage"></img>
 
       </div>
@@ -42,7 +41,7 @@ class CameraApp extends Component {
 
 const style = {
   yourimage: {
-    width: '100%', 
+    width: '100%',
   },
   preview: {
     position: 'relative',
