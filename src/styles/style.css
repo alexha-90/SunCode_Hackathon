@@ -44,6 +44,9 @@ input[type='radio'] {
 input[type='radio']:checked {
   background: #ff4100; }
 
+.rc-steps-item-process .rc-steps-item-icon {
+  background: #ff4100; }
+
 .headerFooter {
   min-length: 60vh;
   background-color: #ff4100; }
@@ -81,6 +84,7 @@ body {
 * === STEP PAGE: OVERALL ===
 */
 .step-progress {
+  color: #ff4100;
   background-color: white;
   height: 100px; }
 
