@@ -30,8 +30,8 @@ class Step3 extends Component {
                 </div>
 
                 <div className="roofTypeImages">
-                    <h3>What type of roof does this house have?</h3>
                     <Form>
+                        <h3>What type of roof does this house have?</h3>
                         <div className="roof">
                             <img alt="roofType1" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>
                             <Radio name="radioGroup" />
@@ -42,54 +42,41 @@ class Step3 extends Component {
                         </div>
                         <div className="roof">
                             <img alt="roofType3" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>
+                            <Radio name="radioGroup" />
+                        </div>
+
+                        <h3>How many stories in this building?</h3>
+                        <div className="roof">
+                            <img alt="storyType1" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <Radio name="houseFloors" />
+                        </div>
+                        <div className="roof">
+                            <img alt="storyType2" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <Radio name="houseFloors" />
+                        </div>
+                        <div className="roof">
+                            <img alt="storyType3" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <Radio name="houseFloors" />
+                        </div>
+
+                        <h3>What is the estimated pitch of the roof?</h3>
+                        <div className="roof">
+                            <img alt="pitchType1" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <Radio name="roofPitch" />
+                        </div>
+                        <div className="roof">
+                            <img alt="pitchType2" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <Radio name="roofPitch" />
+                        </div>
+                        <div className="roof">
+                            <img alt="pitchType3" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <Radio name="roofPitch" />
                         </div>
                     </Form>
-                    <h3>How many stories in this building?</h3>
-                    <div className="roof">
-                        <div>
-                            <img alt="storyType1" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
-                        </div>
-                        <div>
-                            <img alt="storyType2" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
-                        </div>
-                        <div>
-                            <img alt="storyType3" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
-                        </div>
-                    </div>
-                    <div className="roof">
-                        <Form>
-                            <Radio name="houseFloors" />
-                            <Radio name="houseFloors" />
-                            <Radio name="houseFloors" />
-                        </Form>
-                    </div>
-
-                    <br/>
-
-
-                    <h3>What is the estimated pitch of the roof?</h3>
-                    <div className="roof">
-                        <div>
-                            <img alt="pitchType1" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
-                        </div>
-                        <div>
-                            <img alt="pitchType2" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
-                        </div>
-                        <div>
-                            <img alt="pitchType3" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
-                        </div>
-                    </div>
-                    <div className="roof">
-                        <Form>
-                            <Radio name="roofPitch" />
-                            <Radio name="roofPitch" />
-                            <Radio name="roofPitch" />
-                        </Form>
-                    </div>
 
 
                     <Link to="/review">
-                        <Button bsStyle="success" id="nextButton">Proceed</Button>
+                        <Button className="custom-button">Proceed</Button>
                     </Link>
                 </div>
             </div>

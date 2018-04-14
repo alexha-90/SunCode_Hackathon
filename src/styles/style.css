@@ -44,6 +44,16 @@ input[type='radio'] {
 input[type='radio']:checked {
   background: #ff4100; }
 
+/* === HEADER and FOOTER ===
+*/
+.headerFooter {
+  height: 60px;
+  background-color: #ff4100; }
+  .headerFooter h1 {
+    line-height: 60px;
+    margin: 0;
+    color: #ffffff; }
+
 /*
 * === SECTIONS ===
 */
@@ -131,6 +141,19 @@ body {
   width: 80%;
   margin: auto; }
 
+#reviewMeterInfo .meterConfirm {
+  padding: 15px;
+  border: 2px solid green;
+  margin: 20px 0;
+  border-radius: 5px; }
+
+input[type='number'] {
+  -moz-appearance: textfield; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; }
+
 /*
 * === STEP PAGE: THREE ===
 */
@@ -142,12 +165,9 @@ body {
     .roofTypeImages .roof img {
       width: 200px; }
 
-#reviewMeterInfo .meterConfirm {
-  padding: 15px;
-  border: 2px solid green;
-  margin: 20px 0;
-  border-radius: 5px; }
-
+/*
+* === STEP PAGE: COMFIRMATION ===
+*/
 #completeImg {
   margin: 20vh auto 0 auto;
   width: 250px;
