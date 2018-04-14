@@ -31,27 +31,20 @@ class Step3 extends Component {
 
                 <div className="roofTypeImages">
                     <h3>What type of roof does this house have?</h3>
-                    <div className="roof">
-                        <div>
+                    <Form>
+                        <div className="roof">
                             <img alt="roofType1" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>
+                            <Radio name="radioGroup" />
                         </div>
-                        <div>
+                        <div className="roof">
                             <img alt="roofType2" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>
+                            <Radio name="radioGroup" />
                         </div>
-                        <div>
+                        <div className="roof">
                             <img alt="roofType3" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>
+
                         </div>
-                    </div>
-                    <div className="roof">
-                        <Form>
-                            <Radio name="roofType1" />
-                            <Radio name="roofType1" />
-                            <Radio name="roofType1" />
-                        </Form>
-                    </div>
-
-                    <br/>
-
+                    </Form>
                     <h3>How many stories in this building?</h3>
                     <div className="roof">
                         <div>
@@ -95,14 +88,10 @@ class Step3 extends Component {
                         </Form>
                     </div>
 
-                    <br/>
-                    <br/>
-
                     <Link to="/review">
                         <Button bsStyle="success" id="nextButton">Proceed</Button>
                     </Link>
                 </div>
-
             </div>
         )
     }
