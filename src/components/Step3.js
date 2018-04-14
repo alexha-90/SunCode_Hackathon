@@ -87,6 +87,7 @@ class Step3 extends Component {
                         </Form>
                     </div>
 
+
                     <Link to="/review">
                         <Button bsStyle="success" id="nextButton">Proceed</Button>
                     </Link>

@@ -68,9 +68,9 @@ class Step1 extends Component {
                 <br/>
 
                 <Button className="custom-button" onClick={this.clicked}>Take Photo<Glyphicon glyph="chevron-right" /></Button>
-
-
-                <input type="file" accept="image/*" id="takePictureField" onChange={this.gotPic} style={{height: '150px'}}/>
+                <br />
+                <br />
+                <input type="file" accept="image/*" id="takePictureField" onChange={this.gotPic}/>
 
 
             </div>
