@@ -3,25 +3,21 @@ import Steps, { Step } from 'rc-steps';
 import 'rc-steps/assets/index.css';
 import 'rc-steps/assets/iconfont.css';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 
 class Step1 extends Component {
     constructor() {
         super();
-        this.onUpload = this.onUpload.bind(this);
-    }
-
-    onUpload() {
-        alert('upload a pic!');
     }
 
     render() {
         return (
             <div className="mainContainer">
                 <div className='step-progress'>
-                    <Steps labelPlacement="vertical" current={1}>
-                        <Step title="Start"/>
-                        <Step title="South roof" />
+                    <Steps labelPlacement="vertical" current={0}>
+                        <Step title="South roof"/>
                         <Step title="C" description="x" />
                         <Step title="D" description="y" />
                         <Step title="E" description="z" />
@@ -32,7 +28,7 @@ class Step1 extends Component {
                     <h3>Go to the south side of the house and take a photo facing away from the house.</h3>
                 </div>
 
-                <div className="uploadImageBox" onClick={this.onUpload}>
+                <div className="uploadImageBox">
                     <img style={{marginRight: '10px'}} src="https://png.icons8.com/dotty/100/000000/structural.png" />
                     <img src="https://png.icons8.com/color/100/000000/screenshot.png" />
                 </div>
@@ -44,9 +40,10 @@ class Step1 extends Component {
 
                 <br/>
 
+                <Link to="/Step1Photo">
+                    <Button bsStyle="success" id="nextButton">Take Photo</Button>
+                </Link>
 
-
-                    <Button bsStyle="info" id="nextButton">Take Photo</Button>
             </div>
         )
     }

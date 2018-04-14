@@ -48,10 +48,10 @@ a:hover {
 }
 
 .uploadImageBox {
-  height: 50%;
-  width: 50%;
+  height: 35%;
+  width: 35%;
   margin: 20px auto;
-  border: 2px dashed;
+  border: 2px solid;
   img {
     position: relative;
     top: 50%;
@@ -59,3 +59,18 @@ a:hover {
     opacity: 0.5;
   }
 }
+
+
+// step1 photo page
+#wholeImg {
+  width: 100%;
+}
+
+#takePicButton {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 4px solid green;
+}
+
