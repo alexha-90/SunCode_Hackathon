@@ -49,14 +49,8 @@ class Step2 extends Component {
 
                 </div>
 
-
-<<<<<<< HEAD
-                <Link to="/Step1Photo">
-                    <Button className="custom-button">Take Photo<Glyphicon glyph="chevron-right" /></Button>
-=======
                 <Link to="/Step3">
-                    <Button bsStyle="success" id="nextButton">Use this info!</Button>
->>>>>>> ae695f32860db6ad7d8ab0049641e6272edcdf76
+                    <Button className="custom-button">Use this info!<Glyphicon glyph="chevron-right" /></Button>
                 </Link>
             </div>
         )
