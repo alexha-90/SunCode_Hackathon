@@ -21,6 +21,17 @@ button.custom-button:hover {
   font-weight: bold;
   width: 210px; }
 
+input[type='file'] {
+  display: none; }
+
+#takePictureField {
+  border: 1px solid #ff4100;
+  border-radius: 25px;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 8px 25px;
+  cursor: pointer; }
+
 input[type='radio'] {
   box-sizing: border-box;
   appearance: none;
@@ -32,6 +43,10 @@ input[type='radio'] {
 
 input[type='radio']:checked {
   background: #ff4100; }
+
+.headerFooter {
+  min-length: 60vh;
+  background-color: #ff4100; }
 
 /*
 * === SECTIONS ===
@@ -108,6 +123,19 @@ body {
   width: 80%;
   margin: auto; }
 
+#reviewMeterInfo .meterConfirm {
+  padding: 15px;
+  border: 2px solid green;
+  margin: 20px 0;
+  border-radius: 5px; }
+
+input[type='number'] {
+  -moz-appearance: textfield; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; }
+
 /*
 * === STEP PAGE: THREE ===
 */
@@ -115,19 +143,13 @@ body {
   width: 100%; }
   .roofTypeImages .roof {
     display: inline-block;
-<<<<<<< HEAD
-    width: 30%;
-    margin: 0 1%;
-    background-color: green; }
-  .roofTypeImages .roof img {
-    width: 100%; }
+    margin: 0 15px; }
+    .roofTypeImages .roof img {
+      width: 200px; }
 
-#reviewMeterInfo .meterConfirm {
-  padding: 15px;
-  border: 2px solid green;
-  margin: 20px 0;
-  border-radius: 5px; }
-
+/*
+* === STEP PAGE: COMFIRMATION ===
+*/
 #completeImg {
   margin: 20vh auto 0 auto;
   width: 250px;
