@@ -197,3 +197,15 @@ input::-webkit-inner-spin-button {
     height: 100%;
   }
 }
+
+
+
+// hide +1/-1 toggle from meter input
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
