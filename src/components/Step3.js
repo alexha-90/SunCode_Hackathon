@@ -42,29 +42,53 @@ class Step3 extends Component {
                         </div>
                         <div className="roof">
                             <img alt="roofType3" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>
-                            <Radio name="radioGroup" />
+
+                    <h3>How many stories in this building?</h3>
+                    <div className="roof">
+                        <div>
+                            <img alt="roofType1" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
                         </div>
-                    </Form>
+                        <div>
+                            <img alt="roofType2" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                        </div>
+                        <div>
+                            <img alt="roofType3" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                        </div>
+                    </div>
+                    <div className="roof">
+                        <Form>
+                            <Radio name="houseFloors" />
+                            <Radio name="houseFloors" />
+                            <Radio name="houseFloors" />
+                        </Form>
+                    </div>
+
+                    <br/>
 
 
-                    {/*<div>*/}
-                        {/*<img alt="roofType1" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>*/}
-                        {/*<Form>*/}
-                            {/*<Radio/>*/}
-                        {/*</Form>*/}
-                    {/*</div>*/}
-                    {/*<div>*/}
-                        {/*<img alt="roofType1" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>*/}
-                        {/*<Form>*/}
-                            {/*<Radio/>*/}
-                        {/*</Form>*/}
-                    {/*</div>*/}
-                    {/*<div>*/}
-                        {/*<img alt="roofType1" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>*/}
-                        {/*<Form>*/}
-                            {/*<Radio/>*/}
-                        {/*</Form>*/}
-                    {/*</div>*/}
+                    <h3>What is the estimated pitch of the roof?</h3>
+                    <div className="roof">
+                        <div>
+                            <img alt="pitch1" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                        </div>
+                        <div>
+                            <img alt="pitch2" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                        </div>
+                        <div>
+                            <img alt="pitch3" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                        </div>
+                    </div>
+                    <div className="roof">
+                        <Form>
+                            <Radio name="roofPitch" />
+                            <Radio name="roofPitch" />
+                            <Radio name="roofPitch" />
+                        </Form>
+                    </div>
+
+                    <Link to="/review">
+                        <Button bsStyle="success" id="nextButton">Proceed</Button>
+                    </Link>
                 </div>
 
             </div>

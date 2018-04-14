@@ -35,12 +35,12 @@ class Step2 extends Component {
                     <form>
                         <FieldGroup
                             id="formControlsText"
-                            type="text"
-                            placeholder="Enter meter information"
+                            type="number"
+                            placeholder="Enter meter manufacturer"
                         />
                         <FieldGroup
                             id="formControlsText"
-                            type="text"
+                            type="number"
                             placeholder="Enter meter number"
                         />
                     </form>

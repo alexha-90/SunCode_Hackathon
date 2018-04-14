@@ -20,7 +20,7 @@ class CameraApp extends Component {
             console.log(event.target.files[0]);
             console.log(event.target.result);
             console.log(event);
-            this.setState({imageSuccess: true, filePath: event.target.files[0]})
+            this.setState({imageSuccess: true, filePath: event.target.files[0]});
             // $("#yourimage").attr("src",URL.createObjectURL(event.target.files[0]));
         }
   }
