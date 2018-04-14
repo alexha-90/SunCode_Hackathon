@@ -25,11 +25,39 @@ class CameraApp extends Component {
 
 
   render() {
+    const style = {
+      yourimage: {
+        width: '100%',
+      },
+      preview: {
+        position: 'relative',
+      },
+      captureContainer: {
+        display: 'flex',
+        position: 'absolute',
+        justifyContent: 'center',
+        zIndex: 1,
+        bottom: 0,
+        width: '100%'
+      },
+      captureButton: {
+        backgroundColor: '#fff',
+        borderRadius: '50%',
+        height: 56,
+        width: 56,
+        color: '#000',
+        margin: 20
+      },
+      captureImage: {
+        width: '100%',
+      }
+    };
+
     return (
       <div style={style.container}>
         Camera Testing Site
 
-        <label for="takePictureField">Take Picture</label>
+        <label htmlFor="takePictureField">Take Picture</label>
         <input type="file" accept="image/*" id="takePictureField" onChange={this.gotPic}/>
 
         <img id="yourimage"></img>
@@ -39,32 +67,6 @@ class CameraApp extends Component {
   }
 }
 
-const style = {
-  yourimage: {
-    width: '100%',
-  },
-  preview: {
-    position: 'relative',
-  },
-  captureContainer: {
-    display: 'flex',
-    position: 'absolute',
-    justifyContent: 'center',
-    zIndex: 1,
-    bottom: 0,
-    width: '100%'
-  },
-  captureButton: {
-    backgroundColor: '#fff',
-    borderRadius: '50%',
-    height: 56,
-    width: 56,
-    color: '#000',
-    margin: 20
-  },
-  captureImage: {
-    width: '100%',
-  }
-};
+
 
 export default CameraApp
