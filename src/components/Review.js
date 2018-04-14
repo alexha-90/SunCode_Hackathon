@@ -17,6 +17,15 @@ class Review extends Component {
                     <h1>Review &amp; Submit</h1>
                     <h3>Please review this info to make sure it's all good. Then tap Submit!</h3>
                 </div>
+                <div id="reviewHouseImg">
+                    <h2>1.</h2>
+                    <img alt="houseImg" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Neutramaxwellhouse.jpg/250px-Neutramaxwellhouse.jpg"/>
+                </div>
+
+                <div id="reviewMeterInfo">
+                    <h2>2.</h2>
+                    <span className="meterConfirm">Silver Spring &#x2713;</span>
+                </div>
 
 
 
