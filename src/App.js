@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 // Page imports
 import Landing from './components/Landing';
-import About from './components/About';
+import Step1 from './components/Step1';
 
 
 // ==========================================================
@@ -13,9 +13,9 @@ class App extends Component {
     return (
       <BrowserRouter>
           <div>
-              {/*add header and footer*/}
+              {/*add header and footer if have time*/}
               <Route exact path='/' component={Landing} />
-              <Route exact path='/about' component={About} />
+              <Route exact path='/Step1' component={Step1} />
           </div>
       </BrowserRouter>
     );
