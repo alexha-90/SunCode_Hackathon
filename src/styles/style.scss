@@ -143,6 +143,20 @@ body {
   width: 100%;
 }
 
+.btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
 
 /*
 * === STEP PAGE: TWO ===
