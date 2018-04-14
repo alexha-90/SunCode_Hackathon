@@ -80,3 +80,24 @@ body {
   width: 50px;
   border-radius: 50%;
   border: 4px solid green; }
+
+#meterImg {
+  width: 300px;
+  height: 300px; }
+
+.meterTextInfo {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px; }
+
+.roofTypeImages .roof {
+  margin: 0 auto;
+  background-color: red;
+  width: 40%; }
+  .roofTypeImages .roof div {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    background-color: green; }
+  .roofTypeImages .roof img {
+    width: 100%; }
