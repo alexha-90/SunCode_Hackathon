@@ -7,6 +7,7 @@ import Step1 from './components/Step1';
 import Step1Photo from './components/Step1Photo';
 import Step1Confirm from './components/Step1Confirm';
 import CameraApp from './components/CameraApp';
+import OtherCameraApp from './components/OtherCameraApp';
 
 
 // ==========================================================
@@ -23,6 +24,7 @@ class App extends Component {
               <Route exact path='/Step1Confirm' component={Step1Confirm} />
 
               <Route exact path='/camera' component={CameraApp} />
+              <Route exact path='/otherCamera' component={OtherCameraApp} />
           </div>
       </BrowserRouter>
     );
