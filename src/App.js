@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Landing from './components/Landing';
 import Step1 from './components/Step1';
 import CameraApp from './components/CameraApp';
+import OtherCameraApp from './components/OtherCameraApp';
 
 
 // ==========================================================
@@ -18,6 +19,7 @@ class App extends Component {
               <Route exact path='/' component={Landing} />
               <Route exact path='/Step1' component={Step1} />
               <Route exact path='/camera' component={CameraApp} />
+              <Route exact path='/otherCamera' component={OtherCameraApp} />
           </div>
       </BrowserRouter>
     );
