@@ -17,12 +17,9 @@ class Step3 extends Component {
         return (
             <div className="mainContainer">
                 <div className='step-progress'>
-                    <Steps labelPlacement="vertical" current={2}>
-                        <Step title="1" description="tbd" />
-                        <Step title="2" description="meter info" />
-                        <Step title="3" description="Roof details" />
-                        <Step title="E" description="z" />
-                    </Steps>
+                    <br/>
+                    <img src="https://i.imgur.com/OpyekOs.png"/>
+                    <br/>
                 </div>
 
                 <div className="directions">

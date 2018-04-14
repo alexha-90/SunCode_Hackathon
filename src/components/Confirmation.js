@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 
 
@@ -18,11 +19,16 @@ class Confirmation extends Component {
                 </div>
 
                 <div id="completeImg">
-                    <img alt="checkMarkImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/120px-Yes_Check_Circle.svg.png"/>
+                    <img alt="checkMarkImg" src="https://i.imgur.com/KltAU4m.png"/>
                 </div>
 
+                <br/>
+                <br/>
+                <br/>
 
-                <Button className="custom-button">Hurray!</Button>
+                <Link to="/TopDown1">
+                    <Button className="custom-button">Hurray!</Button>
+                </Link>
 
             </div>
         )

@@ -64,10 +64,12 @@ class Step1 extends Component {
                     <h3>Go to the south side of the house and take a photo facing away from the house.</h3>
                 </div>
 
-                <div className="uploadImageBox">
-                    <img src="https://png.icons8.com/dotty/100/000000/structural.png" alt="" />
-                    <img src="https://png.icons8.com/color/100/000000/screenshot.png" alt="" />
-                </div>
+                {/*<div className="uploadImageBox">*/}
+                    {/*<img src="https://png.icons8.com/dotty/100/000000/structural.png" alt="" />*/}
+                    {/*<img src="https://png.icons8.com/color/100/000000/screenshot.png" alt="" />*/}
+                {/*</div>*/}
+
+                <img id="navImg" alt="navDirection" src="https://i.imgur.com/1qwxybV.png" />
 
                 <div className="lowerBlurb"> {/* not used atm */}
                     <h3>You are facing:</h3>

@@ -16,6 +16,9 @@ import Review from './components/Review';
 
 import Confirmation from './components/Confirmation';
 
+import TopDown1 from './components/TopDown1';
+import TopDown2 from './components/TopDown2';
+
 import Footer from './components/Footer';
 
 import CameraApp from './components/CameraApp';
@@ -37,6 +40,9 @@ class App extends Component {
               <Route exact path='/Step3' component={Step3} />
               <Route exact path='/review' component={Review} />
               <Route exact path='/confirmation' component={Confirmation} />
+
+              <Route exact path='/topdown1' component={TopDown1} />
+              <Route exact path='/topdown2' component={TopDown2} />
 
               <Route exact path='/camera' component={CameraApp} />
               <Route exact path='/otherCamera' component={OtherCameraApp} />

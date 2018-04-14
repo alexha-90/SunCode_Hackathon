@@ -93,8 +93,9 @@ body {
 */
 .step-progress {
   color: #ff4100;
-  background-color: white;
-  height: 100px; }
+  background-color: white; }
+  .step-progress img {
+    margin: 50px 0; }
 
 .directions {
   width: 90%;
@@ -104,6 +105,10 @@ body {
 /*
 * === STEP PAGE: ONE ===
 */
+#navImg {
+  width: 50%;
+  height: 50%; }
+
 .uploadImageBox {
   color: grey;
   display: block;
@@ -119,7 +124,10 @@ body {
     opacity: 0.5; }
   @media screen and (max-width: 768px) {
     .uploadImageBox {
-      width: 80%; } }
+      width: 80%; }
+      .uploadImageBox #navImg {
+        width: 80%;
+        height: 80%; } }
 
 #wholeImg {
   width: 100%; }
