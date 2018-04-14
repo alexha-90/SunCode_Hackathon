@@ -29,7 +29,7 @@ class Step1 extends Component {
                 </div>
 
                 <div className="uploadImageBox">
-                    <img style={{marginRight: '10px'}} src="https://png.icons8.com/dotty/100/000000/structural.png" />
+                    <img src="https://png.icons8.com/dotty/100/000000/structural.png" />
                     <img src="https://png.icons8.com/color/100/000000/screenshot.png" />
                 </div>
 
@@ -41,7 +41,7 @@ class Step1 extends Component {
                 <br/>
 
                 <Link to="/Step1Photo">
-                    <Button bsStyle="success" id="nextButton">Take Photo</Button>
+                    <Button className="custom-button">Take Photo</Button>
                 </Link>
 
             </div>

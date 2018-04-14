@@ -1,48 +1,75 @@
-body {
-  text-align: center; }
+/*
+* === OVERAL ===
+*/
+a:hover {
+  text-decoration: none; }
 
-.mainContainer {
-  width: 1024px;
-  height: 100vh;
-  margin: 0 auto;
-  background-color: darkolivegreen; }
-
-.imageGallery {
-  height: 200px;
-  width: 80%;
-  margin: 20vh auto 0 auto; }
-  .imageGallery img {
-    height: 150px;
-    width: 200px;
-    margin: 0 15px; }
-
-#nextButton {
-  display: block;
-  margin: 0 auto;
+button.custom-button {
+  background-color: #ff4100;
+  border-radius: 12px;
   width: 160px;
   height: 50px;
   color: white; }
 
-#nextButton:hover {
+button:hover {
   width: 175px;
-  background-color: darkgreen; }
+  background-color: #ff4100; }
 
-a:hover {
-  text-decoration: none; }
+/*
+* === SECTIONS ===
+*/
+body {
+  background-color: white;
+  color: #ff4100;
+  text-align: center; }
+
+.mainContainer {
+  margin: 0 auto; }
+
+/*
+* === LANDING PAGE ===
+*/
+.imageGallery {
+  height: 75%;
+  width: 100%;
+  position: relative;
+  margin: 15px 0; }
+  .imageGallery img {
+    height: 100%;
+    width: 30%;
+    margin: 0 15px; }
+    @media screen and (max-width: 768px) {
+      .imageGallery img {
+        width: 80%;
+        margin: 15px 0; } }
+
+/*
+* === STEP PAGE ===
+*/
+.step-progress {
+  background-color: white;
+  height: 100px; }
 
 .directions {
-  margin-top: 100px; }
+  width: 90%;
+  position: relative; }
 
 .uploadImageBox {
-  height: 35%;
-  width: 35%;
+  color: grey;
+  display: block;
+  height: 200px;
+  width: 50%;
   margin: 20px auto;
   border: 2px solid; }
   .uploadImageBox img {
+    display: inline-block;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     opacity: 0.5; }
+  @media screen and (max-width: 768px) {
+    .uploadImageBox {
+      width: 80%; } }
 
 #wholeImg {
   width: 100%; }
