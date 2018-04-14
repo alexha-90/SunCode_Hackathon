@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
+import { Button, Glyphicon } from 'react-bootstrap';
 import Steps, { Step } from 'rc-steps';
 import 'rc-steps/assets/index.css';
 import 'rc-steps/assets/iconfont.css';
@@ -42,7 +42,7 @@ class Step2 extends Component {
                 <br/>
 
                 <Link to="/Step1Photo">
-                    <Button bsStyle="success" id="nextButton">Take Photo</Button>
+                    <Button className="custom-button">Take Photo<Glyphicon glyph="chevron-right" /></Button>
                 </Link>
             </div>
         )
