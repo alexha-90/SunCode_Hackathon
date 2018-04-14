@@ -1,0 +1,41 @@
+removing site survey and augmented reality original concept. Sticks with Tesla prompt 2 closely:
+----------------------------------------
+tricky programming, but language agnostic. Lot of room for UI participation, user flow, improvements
+
+
+input1: roof type.
+input2: If rectangle, measure height and width. If hipped, measure top, bottom, one side
+input3: how many panels needed (see extra)
+
+dynamically generate a rectangle or trapezoid based on inputs
+
+then:
+using pyramid coding challenge style pattern,
+make roofs: hipped (trapezoid), gable (rectangle) as buttons.
+
+^dynamically created using for loops where 1ft x 1ft = one button
+
+
+all start off as white, then onclick:
+two colors: green = module builder, red = obstruction or dormer
+
+module size (in landscape) = 54 <---> ^36
+assume 60x36 or 5x3squares
+assume we need 12" perimeter (1 box) every side from an obstruction
+mark all perimeter boxes (CFC) as red. Can be done manually or automatically
+
+once a 5x3 square is identified, full module built. make unclickable and darken, input text node by counter variable
+reduce module count by 1. work way to zero.
+
+
+assume perfect dimensions from installer
+
+
+
+extra: see how many panels are needed given monthly usage. Assuming no shading.
+
+cycle through historic google earth images (hot or not?) before starting.
+Multiply panels needed by factor. Aka 4/5 hot = 20% more panels needed.
+ex: https://www.gogreensolar.com/pages/how-many-solar-panels-do-i-need
+if 650kWh/mo, need 4000W system (13 300W panels).
+with 20% shade, need 4000W * 1.2 = 4800W (16 300W panels)
