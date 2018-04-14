@@ -14,7 +14,8 @@ class Step1 extends Component {
             directToStep2: false
         };
         this.gotPic = this.gotPic.bind(this);
-        this.clicked = this.clicked.bind(this);
+        // this.clicked = this.clicked.bind(this);
+        // this.clickInput = this.clickInput.bind(this);
     }
 
     gotPic(event) {
@@ -30,9 +31,17 @@ class Step1 extends Component {
         }
     }
 
-    clicked() {
-        // window.getelement().click()
-    }
+    // clicked() {
+    //     // window.getelement().click()
+    //     console.log(this.refs.clickInput);
+    //     console.log(this.refs.takePictureField);
+    //     // this.refs.clickInput.click();
+    // }
+
+    // clickInput(el) {
+    //     // el.onClick()
+    //     console.log(el);
+    // }
 
 
     render() {
@@ -67,10 +76,10 @@ class Step1 extends Component {
 
                 <br/>
 
-                <Button className="custom-button" onClick={this.clicked}>Take Photo<Glyphicon glyph="chevron-right" /></Button>
-                <br />
-                <br />
-                <input type="file" accept="image/*" id="takePictureField" onChange={this.gotPic}/>
+                <div class="btn-wrapper">
+                  <Button className="custom-button">Take Photo<Glyphicon glyph="chevron-right" /></Button>
+                  <input type="file" name="myfile" accept="image/*" id="takePictureField" onChange={this.gotPic}/>
+                </div>
 
 
             </div>
