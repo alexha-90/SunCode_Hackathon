@@ -52,9 +52,17 @@ input[type='radio']:checked {
   background: #ff4100;
 }
 
+/* === HEADER and FOOTER ===
+*/
+
 .headerFooter {
-  min-length: 60vh;
+  height: 60px;
   background-color: #ff4100;
+  h1 {
+    line-height: 60px;
+    margin: 0;
+    color: #ffffff;
+  }
 }
 
 /*

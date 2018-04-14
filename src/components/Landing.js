@@ -17,7 +17,7 @@ class Landing extends Component {
     render() {
         return (
             <div className="mainContainer">
-                <h1>Kill the Site Survey</h1>
+                {/*<h1>Kill the Site Survey</h1>*/}
 
                 <div className="imageGallery">
                     <img src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940/"/>
