@@ -8,7 +8,6 @@ import Header from './components/Header';
 
 import Step1 from './components/Step1';
 import Step1Photo from './components/Step1Photo';
-import Step1Confirm from './components/Step1Confirm';
 
 import Step2 from './components/Step2';
 import Step3 from './components/Step3';
@@ -34,7 +33,6 @@ class App extends Component {
               <Route exact path='/' component={Landing} />
               <Route exact path='/Step1' component={Step1} />
               <Route exact path='/Step1Photo' component={Step1Photo} />
-              <Route exact path='/Step1Confirm' component={Step1Confirm} />
               <Route exact path='/Step2' component={Step2} />
               <Route exact path='/Step3' component={Step3} />
               <Route exact path='/review' component={Review} />

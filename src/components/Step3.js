@@ -74,10 +74,14 @@ class Step3 extends Component {
                         </div>
                     </Form>
 
+                    <br/>
 
                     <Link to="/review">
                         <Button className="custom-button">Proceed</Button>
                     </Link>
+
+                    <br/>
+                    <br/>
                 </div>
             </div>
         )

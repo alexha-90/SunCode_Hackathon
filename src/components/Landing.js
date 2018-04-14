@@ -17,13 +17,20 @@ class Landing extends Component {
     render() {
         return (
             <div className="mainContainer">
-                {/*<h1>Kill the Site Survey</h1>*/}
+                <br/>
+                <br/>
+
+                <h1 id="tagline">Solar simplified</h1>
+
 
                 <div className="imageGallery">
                     <img src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940/"/>
                     <img src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940/"/>
                     <img src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940/"/>
                 </div>
+
+                <br/>
+                <br/>
 
                 <Link to="/Step1">
                     <Button className="custom-button">Get Started! <Glyphicon glyph="chevron-right" /></Button>

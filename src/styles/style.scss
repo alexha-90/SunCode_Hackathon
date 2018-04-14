@@ -82,6 +82,11 @@ body {
 * === LANDING PAGE ===
 */
 
+#tagline {
+  letter-spacing: 0.2em;
+  font-size: 3em;
+  margin-bottom: 40px;
+}
 .imageGallery {
   height: 75%;
   width: 100%;
@@ -167,13 +172,14 @@ body {
 }
 
 .meterTextInfo {
-  width: 80%;
+  width: 30%;
   margin: auto;
 }
 
-// review
+// review meter
 #reviewMeterInfo {
   .meterConfirm {
+    display: block;
     padding: 15px;
     border: 2px solid green;
     margin: 20px 0;
@@ -207,8 +213,31 @@ input::-webkit-inner-spin-button {
   }
 }
 
+
 /*
-* === STEP PAGE: COMFIRMATION ===
+* === STEP PAGE: REVIEW ===
+*/
+.leftPanel{
+  margin-right: 50px;
+  display: inline-block;
+
+}
+
+.rightPanel {
+  display: inline-block;
+}
+
+#reviewRoofType {
+  img {
+    margin: 0 15px;
+  }
+}
+
+
+
+
+/*
+* === STEP PAGE: CONFIRMATION ===
 */
 #completeImg {
   margin: 20vh auto 0 auto;

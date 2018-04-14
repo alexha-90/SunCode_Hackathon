@@ -35,7 +35,7 @@ class Step2 extends Component {
                     <form>
                         <FieldGroup
                             id="formControlsText"
-                            type="number"
+                            type="text"
                             placeholder="Enter meter manufacturer"
                         />
                         <FieldGroup
@@ -45,6 +45,9 @@ class Step2 extends Component {
                         />
                     </form>
                 </div>
+
+                <br/>
+
                 <Link to="/Step3">
                     <Button className="custom-button">Use this info!<Glyphicon glyph="chevron-right" /></Button>
                 </Link>
