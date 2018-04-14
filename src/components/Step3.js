@@ -55,13 +55,13 @@ class Step3 extends Component {
                     <h3>How many stories in this building?</h3>
                     <div className="roof">
                         <div>
-                            <img alt="roofType1" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <img alt="storyType1" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
                         </div>
                         <div>
-                            <img alt="roofType2" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <img alt="storyType2" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
                         </div>
                         <div>
-                            <img alt="roofType3" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <img alt="storyType3" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
                         </div>
                     </div>
                     <div className="roof">
@@ -78,13 +78,13 @@ class Step3 extends Component {
                     <h3>What is the estimated pitch of the roof?</h3>
                     <div className="roof">
                         <div>
-                            <img alt="pitch1" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <img alt="pitchType1" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
                         </div>
                         <div>
-                            <img alt="pitch2" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <img alt="pitchType2" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
                         </div>
                         <div>
-                            <img alt="pitch3" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                            <img alt="pitchType3" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
                         </div>
                     </div>
                     <div className="roof">

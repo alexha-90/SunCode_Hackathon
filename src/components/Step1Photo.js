@@ -17,12 +17,16 @@ class Step1Photo extends Component {
     }
 
     onCaptureImg() {
-        // alert('capture image now');
+        this.setState({directToStep2: true});
+
+        // // alert('capture image now');
         // this.setState({uploadSuccess: true});
-        // setTimeout(() => {
-        //     alert(this.state.uploadSuccess);
+        //
+        //
+        // // setTimeout(() => {
+        // //     alert(this.state.uploadSuccess);
         //     this.setState({directToStep2: true});
-        // }, 500);
+        // // }, 500);
     }
 
     render() {

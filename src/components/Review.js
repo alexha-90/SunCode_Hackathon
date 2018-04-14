@@ -24,9 +24,23 @@ class Review extends Component {
 
                 <div id="reviewMeterInfo">
                     <h2>2.</h2>
-                    <span className="meterConfirm">Silver Spring &#x2713;</span>
+                    <span className="meterConfirm">
+                        Silver Spring <span style={{color: 'green'}}>&#x2713;</span>
+                    </span>
+                    <span className="meterConfirm">
+                        12345678 <span style={{color: 'green'}}>&#x2713;</span>
+                    </span>
                 </div>
 
+                <br/>
+                <br/>
+
+                <div id="reviewRoofType">
+                    <h2>3.</h2>
+                    <img alt="roofTypeConfirm" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                    <img alt="storyTypeConfirm" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                    <img alt="pitchTypeConfirm" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                </div>
 
 
                 <Link to="/confirmation">
