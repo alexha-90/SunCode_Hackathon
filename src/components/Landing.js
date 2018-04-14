@@ -28,6 +28,15 @@ class Landing extends Component {
                 <Link to="/Step1">
                     <Button bsStyle="success" id="nextButton">Get Started! <Glyphicon glyph="chevron-right" /></Button>
                 </Link>
+
+                <Link to="/camera">
+                    <Button bsStyle="success" id="cameraButton">Test Camera <Glyphicon glyph="chevron-right" /></Button>
+                </Link>
+
+                <Link to="/otherCamera">
+                    <Button bsStyle="success" id="otherCameraButton">Test Other Camera <Glyphicon glyph="chevron-right" /></Button>
+                </Link>
+
             </div>
         )
     }
