@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import { Form, Button, Radio } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
 import Steps, { Step } from 'rc-steps';
 import 'rc-steps/assets/index.css';
 import 'rc-steps/assets/iconfont.css';
@@ -8,7 +8,7 @@ import 'rc-steps/assets/iconfont.css';
 
 
 
-class About extends Component {
+class Step3 extends Component {
     constructor() {
         super();
     }
@@ -16,10 +16,68 @@ class About extends Component {
     render() {
         return (
             <div className="mainContainer">
-                <h1>Step </h1>
+                <div className='step-progress'>
+                    <Steps labelPlacement="vertical" current={2}>
+                        <Step title="1" description="tbd" />
+                        <Step title="2" description="meter info" />
+                        <Step title="3" description="Roof details" />
+                        <Step title="E" description="z" />
+                    </Steps>
+                </div>
+
+                <div className="directions">
+                    <h1>3. Select Roof Details</h1>
+                </div>
+
+                <div className="roofTypeImages">
+                    <h3>What type of roof does this house have?</h3>
+                    <div className="roof">
+                        <div>
+                            <img alt="roofType1" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>
+                        </div>
+                        <div>
+                            <img alt="roofType2" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>
+                        </div>
+                        <div>
+                            <img alt="roofType3" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>
+                        </div>
+                    </div>
+                    <div className="roof">
+                        <Form>
+                            <Radio name="radioGroup" />
+                            <Radio name="radioGroup" />
+                            <Radio name="radioGroup" />
+                        </Form>
+                    </div>
+
+
+
+
+
+
+                    {/*<div>*/}
+                        {/*<img alt="roofType1" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>*/}
+                        {/*<Form>*/}
+                            {/*<Radio/>*/}
+                        {/*</Form>*/}
+                    {/*</div>*/}
+                    {/*<div>*/}
+                        {/*<img alt="roofType1" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>*/}
+                        {/*<Form>*/}
+                            {/*<Radio/>*/}
+                        {/*</Form>*/}
+                    {/*</div>*/}
+                    {/*<div>*/}
+                        {/*<img alt="roofType1" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>*/}
+                        {/*<Form>*/}
+                            {/*<Radio/>*/}
+                        {/*</Form>*/}
+                    {/*</div>*/}
+                </div>
+
             </div>
         )
     }
 }
 
-export default About;
+export default Step3;
