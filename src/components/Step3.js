@@ -43,7 +43,6 @@ class Step3 extends Component {
                         <div className="roof">
                             <img alt="roofType3" src="https://www.woodworkingnetwork.com/sites/woodworking/files/styles/slideshow_thumbnail/public/glass%20balcony%20roof%20terrace%20with%20composite%20decking_0.png?itok=qCq3eJOH"/>
                         </div>
-<<<<<<< HEAD
 
                         <h3>How many stories in this building?</h3>
                         <div className="roof">
@@ -60,29 +59,6 @@ class Step3 extends Component {
                                 <Radio name="houseFloors" />
                             </div>
                         </div>
-=======
-                    </Form>
-                    <h3>How many stories in this building?</h3>
-                    <div className="roof">
-                        <div>
-                            <img alt="storyType1" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
-                        </div>
-                        <div>
-                            <img alt="storyType2" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
-                        </div>
-                        <div>
-                            <img alt="storyType3" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
-                        </div>
-                    </div>
-                    <div className="roof">
-                        <Form>
-                            <Radio name="houseFloors" />
-                            <Radio name="houseFloors" />
-                            <Radio name="houseFloors" />
-                        </Form>
-                    </div>
->>>>>>> 9661d87f073b7cfa1f872869760a4778c5766658
-
 
                         <h3>What is the estimated pitch of the roof?</h3>
                         <div className="roof">
