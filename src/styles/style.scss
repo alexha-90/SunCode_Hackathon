@@ -2,21 +2,28 @@
 * === OVERAL ===
 */
 
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
 a:hover {
   text-decoration: none;
 }
 
 button.custom-button {
   background-color: #ff4100;
-  border-radius: 12px;
-  width: 160px;
-  height: 50px;
+  background-image: linear-gradient(to right, #f6d365 0%,  #ff4100 100%);
+  border-radius: 50px;
+  border-width: 0;
   color: white;
+  font-size: 1.5em;
+  height: 50px;
+  margin: 0 15px;
+  width: 200px;
 }
 
-button:hover {
-  width: 175px;
-  background-color: #ff4100;
+button.custom-button:hover {
+  color: white;
+  font-weight: bold;
+  width: 210px;
 }
 
 /*
@@ -26,6 +33,7 @@ button:hover {
 body {
   background-color: white;
   color: #ff4100;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
 }
 

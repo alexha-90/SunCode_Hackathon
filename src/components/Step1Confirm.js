@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
+import { Button, Glyphicon } from 'react-bootstrap';
 import Steps, { Step } from 'rc-steps';
 import 'rc-steps/assets/index.css';
 import 'rc-steps/assets/iconfont.css';
@@ -30,11 +30,11 @@ class Step1Confirm extends Component {
                 </div>
 
                 <Link to="/Step1Photo">
-                    <Button className="custom-button">Take new photo</Button>
+                    <Button className="custom-button">Take new photo<Glyphicon glyph="chevron-right" /></Button>
                 </Link>
 
                 <Link to="/Step2">
-                    <Button className="custom-button">Use this photo</Button>
+                    <Button className="custom-button">Use this photo<Glyphicon glyph="chevron-right" /></Button>
                 </Link>
 
             </div>

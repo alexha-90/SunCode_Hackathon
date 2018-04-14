@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, FormGroup, ControlLabel, HelpBlock, FormControl } from 'react-bootstrap';
+import { Button, Glyphicon, FormGroup, ControlLabel, HelpBlock, FormControl } from 'react-bootstrap';
 import Steps, { Step } from 'rc-steps';
 import 'rc-steps/assets/index.css';
 import 'rc-steps/assets/iconfont.css';
@@ -49,9 +49,8 @@ class Step2 extends Component {
 
                 </div>
 
-
                 <Link to="/Step3">
-                    <Button bsStyle="success" id="nextButton">Use this info!</Button>
+                    <Button className="custom-button">Use this info!<Glyphicon glyph="chevron-right" /></Button>
                 </Link>
             </div>
         )
