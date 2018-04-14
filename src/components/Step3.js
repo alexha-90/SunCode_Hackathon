@@ -90,8 +90,6 @@ class Step3 extends Component {
                         <Button bsStyle="success" id="nextButton">Proceed</Button>
                     </Link>
                 </div>
-
-            </div>
         )
     }
 }
