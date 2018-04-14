@@ -26,7 +26,7 @@ class Landing extends Component {
                 </div>
 
                 <Link to="/Step1">
-                    <Button bsStyle="success" id="nextButton">Get Started! <Glyphicon glyph="chevron-right" /></Button>
+                    <Button className="custom-button">Get Started! <Glyphicon glyph="chevron-right" /></Button>
                 </Link>
 
                 <Link to="/camera">
