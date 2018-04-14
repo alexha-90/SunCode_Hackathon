@@ -21,6 +21,17 @@ button.custom-button:hover {
   font-weight: bold;
   width: 210px; }
 
+input[type='file'] {
+  display: none; }
+
+#takePictureField {
+  border: 1px solid #ff4100;
+  border-radius: 25px;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 8px 25px;
+  cursor: pointer; }
+
 input[type='radio'] {
   box-sizing: border-box;
   appearance: none;
