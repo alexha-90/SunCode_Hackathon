@@ -1,7 +1,6 @@
 /*
 * === OVERAL ===
 */
-
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
 a:hover {
@@ -26,10 +25,23 @@ button.custom-button:hover {
   width: 210px;
 }
 
+input[type='radio'] {
+  box-sizing: border-box;
+  appearance: none;
+  background: white;
+  outline: 2px solid #ff4100;
+  border: 3px solid white;
+  width: 16px;
+  height: 16px;
+}
+
+input[type='radio']:checked {
+  background: #ff4100;
+}
+
 /*
 * === SECTIONS ===
 */
-
 body {
   background-color: white;
   color: #ff4100;
@@ -61,13 +73,11 @@ body {
       margin: 15px 0;
     }
   }
-
 }
 
 /*
-* === STEP PAGE ===
+* === STEP PAGE: OVERALL ===
 */
-
 .step-progress {
   background-color: white;
   height: 100px;
@@ -75,9 +85,13 @@ body {
 
 .directions {
   width: 90%;
+  margin: auto;
   position: relative
 }
 
+/*
+* === STEP PAGE: ONE ===
+*/
 .uploadImageBox {
   color: grey;
   display: block;
@@ -103,58 +117,33 @@ body {
   width: 100%;
 }
 
-#takePicButton {
-  background-color: red;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: 4px solid green;
-}
 
-
+/*
+* === STEP PAGE: TWO ===
+*/
 #meterImg {
-  width: 300px;
-  height: 300px;
+  width: 30%;
+  height: 30%;
 }
-
 
 .meterTextInfo {
-  margin: 0 auto;
-  width: 300px;
-  height: 300px;
+  width: 80%;
+  margin: auto;
 }
 
 
-
-
-// step 3
-
+/*
+* === STEP PAGE: THREE ===
+*/
 .roofTypeImages {
+  width: 100%;
 
   .roof {
-    margin: 0 auto;
-    background-color: red;
-    width: 40%;
-    div {
-      display: inline-block;
-      width: 30%;
-      margin: 0 1%;
-      background-color: green;
-    }
+    display: inline-block;
+    margin: 0 15px;
+
     img {
-      width: 100%;
+      width: 200px;
     }
   }
-
 }
-
-
-//.roofTypeImages {
-//  div {
-//    margin: 0 25px;
-//    display: inline-block;
-//    img {
-//      margin-bottom: 10px;
-//    }
-//  }
-//}

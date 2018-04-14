@@ -29,8 +29,6 @@ class Step2 extends Component {
                     <h3>Find the meter to the south side of the house and take a photo facing away from the house.</h3>
                 </div>
 
-
-
                 <img alt="meter" id="meterImg" src="https://i.imgur.com/xdiOrGd.png"/>
 
                 <div className="meterTextInfo">
@@ -46,9 +44,7 @@ class Step2 extends Component {
                             placeholder="Enter meter number"
                         />
                     </form>
-
                 </div>
-
                 <Link to="/Step3">
                     <Button className="custom-button">Use this info!<Glyphicon glyph="chevron-right" /></Button>
                 </Link>
