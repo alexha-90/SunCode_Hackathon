@@ -11,7 +11,10 @@ class Header extends Component {
     render() {
         return (
             <div className="headerFooter">
-                <h1>Kill the Site Survey</h1>
+                <img alt="logo" src="https://i.imgur.com/ATXs717.png"/>
+
+                <h1>&nbsp;&nbsp;&nbsp;Kill the Site Survey</h1>
+                <hr/>
             </div>
         )
     }

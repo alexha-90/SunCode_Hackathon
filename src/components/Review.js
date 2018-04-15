@@ -13,6 +13,12 @@ class Review extends Component {
         return (
             <div className="mainContainer">
 
+                <div className='step-progress'>
+                    <br/>
+                    <img src="https://i.imgur.com/qwnY4Tp.png"/>
+                    <br/>
+                </div>
+
                 <div className="directions">
                     <h1>Review &amp; Submit</h1>
                     <h3>Please review this info to make sure it's all good. Then tap Submit!</h3>
@@ -30,7 +36,7 @@ class Review extends Component {
                     <div id="reviewMeterInfo">
                         <h2>2.</h2>
                         <span className="meterConfirm">
-                        Silver Spring <span style={{color: 'green'}}>&#x2713;</span>
+                        Silver Springs Networks<span style={{color: 'green'}}>&#x2713;</span>
                     </span>
                         <span className="meterConfirm">
                         12345678 <span style={{color: 'green'}}>&#x2713;</span>
@@ -46,14 +52,18 @@ class Review extends Component {
                     <img alt="roofTypeConfirm" src="https://i.imgur.com/fv2FCRP.png"/>
                     <img alt="storyTypeConfirm" src="https://i.imgur.com/89E3XEU.png"/>
                     <img alt="pitchTypeConfirm" src="https://i.imgur.com/5ay7MYE.png"/>
+                    <img id="topReview" src="https://i.imgur.com/A5OXtRa.pngg"/>
                 </div>
 
                 <br/>
                 <br/>
 
-                <Link to="/TopDown1">
-                    <Button className="custom-button">Continue</Button>
+                <Link to="/confirmation">
+                    <Button className="custom-button">Finish solar survey</Button>
                 </Link>
+
+                <br/>
+                <br/>
 
             </div>
         )

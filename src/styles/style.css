@@ -2,6 +2,9 @@
 * === OVERAL ===
 */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+h1 {
+  color: #ff4100; }
+
 a:hover {
   text-decoration: none; }
 
@@ -47,12 +50,16 @@ input[type='radio']:checked {
 /* === HEADER and FOOTER ===
 */
 .headerFooter {
-  height: 60px;
-  background-color: #ff4100; }
+  height: 65px;
+  background-color: #ffffff; }
   .headerFooter h1 {
-    line-height: 60px;
-    margin: 0;
-    color: #ffffff; }
+    margin: 0px 0 -15px 0;
+    display: inline-block;
+    line-height: 80px;
+    color: #ff4100;
+    font-size: 1.5em; }
+  .headerFooter img {
+    margin: 0; }
 
 /*
 * === SECTIONS ===
@@ -64,13 +71,13 @@ body {
   text-align: center; }
 
 .mainContainer {
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #aeaeae; }
 
 /*
 * === LANDING PAGE ===
 */
 #tagline {
-  letter-spacing: 0.2em;
   font-size: 3em;
   margin-bottom: 40px; }
 
@@ -81,7 +88,7 @@ body {
   margin: 15px 0; }
   .imageGallery img {
     height: 100%;
-    width: 30%;
+    width: 25%;
     margin: 0 15px; }
     @media screen and (max-width: 768px) {
       .imageGallery img {
@@ -95,6 +102,7 @@ body {
   color: #ff4100;
   background-color: white; }
   .step-progress img {
+    height: 50px;
     margin: 50px 0; }
 
 .directions {
@@ -176,7 +184,7 @@ input::-webkit-inner-spin-button {
   width: 100%; }
   .roofTypeImages .roof {
     display: inline-block;
-    margin: 0 15px; }
+    margin: 0 15px 50px 15px; }
     .roofTypeImages .roof img {
       width: 200px; }
 
@@ -200,9 +208,17 @@ input::-webkit-inner-spin-button {
 */
 #completeImg {
   margin: 100px  auto;
-  width: 500px;
-  height: 500px; }
+  width: 200px;
+  height: 200px; }
   #completeImg img {
+    width: 100%;
+    height: 100%; }
+
+.topDownImg {
+  margin: 100px  auto;
+  width: 400px;
+  height: 400px; }
+  .topDownImg img {
     width: 100%;
     height: 100%; }
 

@@ -13,6 +13,12 @@ class Confirmation extends Component {
         return (
             <div className="mainContainer">
 
+                <div className='step-progress'>
+                    <br/>
+                    <img src="https://i.imgur.com/OpyekOs.png"/>
+                    <br/>
+                </div>
+
                 <div className="directions">
                     <h1>Complete!</h1>
                     <h3>You're all done!</h3>

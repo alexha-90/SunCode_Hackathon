@@ -20,13 +20,24 @@ class Landing extends Component {
                 <br/>
                 <br/>
 
-                <h1 id="tagline">Site Surveys... simplified</h1>
+                <div className="directions">
+                <h1 id="tagline">Home Solar Survey</h1>
+                    <h3>Follow these steps to complete the site survey.
+                        <br/>
+                        We'll guide you through
+                        the process from start to finish. Just tap Get Started to begin.
+                    </h3>
+                </div>
+
+                <br/>
+                <br/>
 
 
                 <div className="imageGallery">
-                    <img src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940/"/>
-                    <img src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940/"/>
-                    <img src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940/"/>
+                    <img alt="cam" src="https://i.imgur.com/iN62EmV.png"/>
+                    <img alt="meter" src="https://i.imgur.com/JIJDiNv.png "/>
+                    <img alt="roof" src="https://i.imgur.com/M2cMYUW.png"/>
+
                 </div>
 
                 <br/>

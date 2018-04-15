@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import { Button, Glyphicon } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
-import Steps, { Step } from 'rc-steps';
-import 'rc-steps/assets/index.css';
-import 'rc-steps/assets/iconfont.css';
+;
 
 
 
@@ -51,17 +49,22 @@ class Step1 extends Component {
         return (
 
             <div className="mainContainer">
+
                 <div className='step-progress'>
-                    <Steps labelPlacement="vertical" current={0}>
-                        <Step title="South roof"/>
-                        <Step title="C" description="x" />
-                        <Step title="D" description="y" />
-                        <Step title="E" description="z" />
-                    </Steps>
+                    <br/>
+                    <img src="https://i.imgur.com/2Rz7DnT.png"/>
+                    <br/>
                 </div>
+
+
+
                 <div className="directions">
                     <h1>Take a photo facing south</h1>
-                    <h3>Go to the south side of the house and take a photo facing away from the house.</h3>
+                    <h3>
+                        Stand of the south side of the house and face away from the house.
+                        <br/>
+                        Photograph any trees or obstructions that might shade the roof.
+                    </h3>
                 </div>
 
                 {/*<div className="uploadImageBox">*/}
@@ -71,11 +74,12 @@ class Step1 extends Component {
 
                 <img id="navImg" alt="navDirection" src="https://i.imgur.com/1qwxybV.png" />
 
-                <div className="lowerBlurb"> {/* not used atm */}
-                    <h3>You are facing:</h3>
-                    N-W-E-S
-                </div>
+                {/*<div className="lowerBlurb"> /!* not used atm *!/*/}
+                    {/*<h3>You are facing:</h3>*/}
+                    {/*N-W-E-S*/}
+                {/*</div>*/}
 
+                <br/>
                 <br/>
 
                 <div class="btn-wrapper">

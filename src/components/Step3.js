@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, Button, Radio } from 'react-bootstrap';
+import { Form, Button, Radio, Glyphicon } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Steps, { Step } from 'rc-steps';
 import 'rc-steps/assets/index.css';
@@ -18,7 +18,7 @@ class Step3 extends Component {
             <div className="mainContainer">
                 <div className='step-progress'>
                     <br/>
-                    <img src="https://i.imgur.com/OpyekOs.png"/>
+                    <img src="https://i.imgur.com/qwnY4Tp.png"/>
                     <br/>
                 </div>
 
@@ -28,7 +28,7 @@ class Step3 extends Component {
 
                 <div className="roofTypeImages">
                     <Form>
-                        <h3>What type of roof does this house have?</h3>
+                        <h3>What material is the roof made of?</h3>
                         <div className="roof">
                             <img alt="roofType1" src="https://i.imgur.com/fv2FCRP.png"/>
                             <Radio name="radioGroup" />
@@ -56,6 +56,7 @@ class Step3 extends Component {
                             <Radio name="houseFloors" />
                         </div>
 
+
                         <h3>What is the estimated pitch of the roof?</h3>
                         <div className="roof">
                             <img alt="pitchType1" src="https://i.imgur.com/zKqH16I.png"/>
@@ -73,8 +74,8 @@ class Step3 extends Component {
 
                     <br/>
 
-                    <Link to="/review">
-                        <Button className="custom-button">Proceed</Button>
+                    <Link to="/TopDown1">
+                        <Button className="custom-button">Continue<Glyphicon glyph="chevron-right" /></Button>
                     </Link>
 
                     <br/>

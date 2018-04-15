@@ -17,16 +17,16 @@ class Step2 extends Component {
         return (
             <div className="mainContainer">
                 <div className='step-progress'>
-                    <Steps labelPlacement="vertical" current={1}>
-                        <Step title="South roof"/>
-                        <Step title="Meter Info" description="x" />
-                        <Step title="D" description="y" />
-                        <Step title="E" description="z" />
-                    </Steps>
+                    <br/>
+                    <img src="https://i.imgur.com/iMhXJH5.png"/>
+                    <br/>
                 </div>
+
                 <div className="directions">
-                    <h1>Enter meter information</h1>
-                    <h3>Find the meter to the south side of the house and take a photo facing away from the house.</h3>
+                    <h1>2. Enter meter information</h1>
+                    <h3>
+                        Find the electricity meter and enter the Manufacturer Name and Number.
+                    </h3>
                 </div>
 
                 <img alt="meter" id="meterImg" src="https://i.imgur.com/l455PjS.png"/>
@@ -49,8 +49,11 @@ class Step2 extends Component {
                 <br/>
 
                 <Link to="/Step3">
-                    <Button className="custom-button">Use this info!<Glyphicon glyph="chevron-right" /></Button>
+                    <Button className="custom-button">Continue<Glyphicon glyph="chevron-right" /></Button>
                 </Link>
+                <br/>
+                <br/>
+
             </div>
         )
     }

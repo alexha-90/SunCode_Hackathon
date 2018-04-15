@@ -1,6 +1,11 @@
 /*
 * === OVERAL ===
 */
+
+h1 {
+  color: #ff4100;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
 a:hover {
@@ -55,14 +60,23 @@ input[type='radio']:checked {
 /* === HEADER and FOOTER ===
 */
 .headerFooter {
-  height: 60px;
-  background-color: #ff4100;
+  height: 65px;
+  background-color: #ffffff;
   h1 {
-    line-height: 60px;
+    margin: 0px 0 -15px 0;
+    display: inline-block;
+    line-height: 80px;
+    color: #ff4100;
+    font-size: 1.5em;
+
+  }
+  img {
     margin: 0;
-    color: #ffffff;
   }
 }
+
+
+
 
 /*
 * === SECTIONS ===
@@ -76,6 +90,7 @@ body {
 
 .mainContainer {
   margin: 0 auto;
+  color: #aeaeae;
 }
 
 /*
@@ -83,7 +98,6 @@ body {
 */
 
 #tagline {
-  letter-spacing: 0.2em;
   font-size: 3em;
   margin-bottom: 40px;
 }
@@ -95,7 +109,7 @@ body {
 
   img {
     height: 100%;
-    width: 30%;
+    width: 25%;
     margin: 0 15px;
 
     @media screen and (max-width: 768px) {
@@ -112,6 +126,7 @@ body {
   color: #ff4100;
   background-color: white;
   img {
+    height: 50px;
     margin: 50px 0;
   }
 }
@@ -217,7 +232,7 @@ input::-webkit-inner-spin-button {
 
   .roof {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 15px 50px 15px;
 
     img {
       width: 200px;
@@ -247,6 +262,12 @@ input::-webkit-inner-spin-button {
   }
 }
 
+//#topReview {
+//  display: block;
+//  width: 100%;
+//  margin: 0 auto;
+//}
+
 
 
 
@@ -255,8 +276,18 @@ input::-webkit-inner-spin-button {
 */
 #completeImg {
   margin: 100px  auto;
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.topDownImg {
+  margin: 100px  auto;
+  width: 400px;
+  height: 400px;
   img {
     width: 100%;
     height: 100%;
