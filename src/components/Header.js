@@ -6,15 +6,22 @@ import { Button } from 'react-bootstrap';
 class Header extends Component {
     constructor() {
         super();
+        this.redirectHome = this.redirectHome.bind(this);
     }
+
+    redirectHome() {
+        window.location.href = "/";
+    }
+
 
     render() {
         return (
-            <div className="headerFooter">
-                <img alt="logo" src="https://i.imgur.com/ATXs717.png"/>
+            <div className="headerFooter" onClick={this.redirectHome}>
+                <div>
+                    <img alt="logo" src="https://i.imgur.com/ATXs717.png"/>
 
-                <h1>&nbsp;&nbsp;&nbsp;Kill the Site Survey</h1>
-                <hr/>
+                    <h1>&nbsp;&nbsp;&nbsp;Kill the Site Survey</h1>
+                </div>
             </div>
         )
     }

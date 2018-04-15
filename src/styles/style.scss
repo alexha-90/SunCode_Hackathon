@@ -6,6 +6,15 @@ h1 {
   color: #ff4100;
 }
 
+hr {
+  border: none;
+  height: 4px;
+  /* Set the hr color */
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
+}
+
+
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
 a:hover {
@@ -73,7 +82,17 @@ input[type='radio']:checked {
   img {
     margin: 0;
   }
+
+  img:hover {
+    cursor: pointer;
+  }
+
+  h1:hover {
+    cursor: pointer;
+  }
+
 }
+
 
 
 
