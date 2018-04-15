@@ -9,6 +9,11 @@ class Confirmation extends Component {
         super();
     }
 
+    componentWillMount() {
+        window.scrollTo(0, 0);
+    }
+
+
     render() {
         return (
             <div className="mainContainer">

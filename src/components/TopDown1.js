@@ -9,6 +9,10 @@ class TopDown1 extends Component {
         super();
     }
 
+    componentWillMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div className="mainContainer">

@@ -16,6 +16,11 @@ class Step1 extends Component {
         // this.clickInput = this.clickInput.bind(this);
     }
 
+    componentWillMount() {
+        window.scrollTo(0, 0);
+    }
+
+
     gotPic(event) {
         if(event.target.files.length === 1 &&
            event.target.files[0].type.indexOf("image/") === 0) {

@@ -14,6 +14,11 @@ class Landing extends Component {
         this.state = {
         }
     }
+
+    componentWillMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div className="mainContainer">
@@ -37,8 +42,8 @@ class Landing extends Component {
                     <img alt="cam" src="https://i.imgur.com/iN62EmV.png"/>
                     <img alt="meter" src="https://i.imgur.com/JIJDiNv.png "/>
                     <img alt="roof" src="https://i.imgur.com/M2cMYUW.png"/>
-
                 </div>
+
 
                 <br/>
                 <br/>
