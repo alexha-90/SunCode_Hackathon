@@ -22,11 +22,7 @@ class Confirmation extends Component {
                     <img alt="checkMarkImg" src="https://i.imgur.com/KltAU4m.png"/>
                 </div>
 
-                <br/>
-                <br/>
-                <br/>
-
-                <Link to="/TopDown1">
+                <Link to="/">
                     <Button className="custom-button">Hurray!</Button>
                 </Link>
 

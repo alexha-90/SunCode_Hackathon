@@ -18,8 +18,12 @@ class TopDown2 extends Component {
                 </div>
 
                 <div id="completeImg">
-                    <img alt="checkMarkImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/120px-Yes_Check_Circle.svg.png"/>
+                    <img alt="checkMarkImg" src="https://i.imgur.com/A5OXtRa.png"/>
                 </div>
+
+                <Link to="/confirmation">
+                    <Button className="custom-button">Submit!</Button>
+                </Link>
 
 
             </div>

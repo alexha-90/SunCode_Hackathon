@@ -43,16 +43,16 @@ class Review extends Component {
 
                 <div id="reviewRoofType">
                     <h2>3.</h2>
-                    <img alt="roofTypeConfirm" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
-                    <img alt="storyTypeConfirm" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
-                    <img alt="pitchTypeConfirm" src="https://chambermaster.blob.core.windows.net/images/members/882/53/MemLogoSearch_Shoreline%20Construction.jpg"/>
+                    <img alt="roofTypeConfirm" src="https://i.imgur.com/fv2FCRP.png"/>
+                    <img alt="storyTypeConfirm" src="https://i.imgur.com/89E3XEU.png"/>
+                    <img alt="pitchTypeConfirm" src="https://i.imgur.com/5ay7MYE.png"/>
                 </div>
 
                 <br/>
                 <br/>
 
-                <Link to="/confirmation">
-                    <Button className="custom-button">Submit!</Button>
+                <Link to="/TopDown1">
+                    <Button className="custom-button">Continue</Button>
                 </Link>
 
             </div>

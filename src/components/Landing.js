@@ -20,7 +20,7 @@ class Landing extends Component {
                 <br/>
                 <br/>
 
-                <h1 id="tagline">Solar simplified</h1>
+                <h1 id="tagline">Site Surveys... simplified</h1>
 
 
                 <div className="imageGallery">
