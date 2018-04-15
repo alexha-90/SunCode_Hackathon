@@ -21,7 +21,7 @@ class Review extends Component {
 
                 <div className="directions">
                     <h1>Review &amp; Submit</h1>
-                    <h3>Please review this info to make sure it's all good. Then tap Submit!</h3>
+                    <h3>Please review this info to make sure it's all good. Then tap Finish!</h3>
                 </div>
 
                 <div className="leftPanel">
@@ -59,7 +59,7 @@ class Review extends Component {
                 <br/>
 
                 <Link to="/confirmation">
-                    <Button className="custom-button">Finish solar survey</Button>
+                    <Button className="custom-button">Finish</Button>
                 </Link>
 
                 <br/>
