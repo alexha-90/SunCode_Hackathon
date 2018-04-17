@@ -1,5 +1,5 @@
 /*
-* === OVERAL ===
+* === OVERALL ===
 */
 
 h1 {
@@ -38,6 +38,7 @@ button.custom-button:hover {
   font-weight: bold;
   width: 210px;
 }
+
 
 input[type='file'] {
   display: none;
@@ -317,16 +318,4 @@ input::-webkit-inner-spin-button {
     width: 100%;
     height: 100%;
   }
-}
-
-
-
-// hide +1/-1 toggle from meter input
-input[type='number'] {
-  -moz-appearance:textfield;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
 }
