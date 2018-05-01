@@ -21,9 +21,7 @@ class Step2 extends Component {
         return (
             <div className="mainContainer">
                 <div className='step-progress'>
-                    <br/>
                     <img src="https://i.imgur.com/iMhXJH5.png"/>
-                    <br/>
                 </div>
 
                 <div className="directions">
@@ -40,12 +38,14 @@ class Step2 extends Component {
                         <FieldGroup
                             id="formControlsText"
                             type="text"
-                            placeholder="Enter meter manufacturer"
+                            label="Enter meter manufacturer"
+                            placeholder='ex. "Silent Springs"'
                         />
                         <FieldGroup
                             id="formControlsText"
                             type="number"
-                            placeholder="Enter meter number"
+                            label="Enter meter number"
+                            placeholder="ex. 1234567890"
                         />
                     </form>
                 </div>

@@ -17,11 +17,8 @@ class Header extends Component {
     render() {
         return (
             <div className="headerFooter" onClick={this.redirectHome}>
-                <div>
-                    <img alt="logo" src="https://i.imgur.com/ATXs717.png"/>
-
-                    <h1>&nbsp;&nbsp;&nbsp;Kill the Site Survey</h1>
-                </div>
+                <img alt="logo" src="https://i.imgur.com/ATXs717.png"/>
+                <h1>&nbsp;&nbsp;&nbsp;Kill the Site Survey</h1>
             </div>
         )
     }

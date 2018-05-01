@@ -18,9 +18,7 @@ class TopDown1 extends Component {
             <div className="mainContainer">
 
                 <div className='step-progress'>
-                    <br/>
                     <img src="https://i.imgur.com/qwnY4Tp.png"/>
-                    <br/>
                 </div>
 
 

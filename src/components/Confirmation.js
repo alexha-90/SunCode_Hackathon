@@ -19,9 +19,7 @@ class Confirmation extends Component {
             <div className="mainContainer">
 
                 <div className='step-progress'>
-                    <br/>
                     <img src="https://i.imgur.com/OpyekOs.png"/>
-                    <br/>
                 </div>
 
                 <div className="directions">

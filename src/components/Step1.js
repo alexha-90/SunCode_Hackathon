@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { Button, Glyphicon } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
-;
-
 
 
 class Step1 extends Component {
@@ -56,9 +54,7 @@ class Step1 extends Component {
             <div className="mainContainer">
 
                 <div className='step-progress'>
-                    <br/>
                     <img src="https://i.imgur.com/2Rz7DnT.png"/>
-                    <br/>
                 </div>
 
 

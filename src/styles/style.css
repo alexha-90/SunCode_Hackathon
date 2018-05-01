@@ -1,9 +1,15 @@
 /*
-* === OVERAL ===
+* === OVERALL ===
 */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
 h1 {
-  color: #ff4100; }
+  color: #ff4100;
+  margin-bottom: 0;
+}
+
+h2, h4 {
+  margin: 0;
+}
 
 hr {
   border: none;
@@ -12,10 +18,12 @@ hr {
   color: #333;
   /* old IE */
   background-color: #333;
-  /* Modern Browsers */ }
+  /* Modern Browsers */
+}
 
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 button.custom-button {
   background-color: #ff4100;
@@ -26,53 +34,49 @@ button.custom-button {
   font-size: 1.5em;
   height: 50px;
   margin: 0 15px;
-  width: 200px; }
+  width: 200px;
+}
 
 button.custom-button:hover {
   color: white;
   font-weight: bold;
-  width: 210px; }
+  width: 210px;
+}
 
-input[type='file'] {
-  display: none; }
-
-#takePictureField {
-  border: 1px solid #ff4100;
-  border-radius: 25px;
-  display: inline-block;
-  font-size: 1.5em;
-  padding: 8px 25px;
-  cursor: pointer; }
-
-input[type='radio'] {
+input[type=radio] {
   box-sizing: border-box;
   appearance: none;
   background: white;
   outline: 2px solid #ff4100;
   border: 3px solid white;
   width: 2em;
-  height: 2em; }
+  height: 2em;
+}
 
-input[type='radio']:checked {
-  background: #ff4100; }
+input[type=radio]:checked {
+  background: #ff4100;
+}
 
 /* === HEADER and FOOTER ===
 */
 .headerFooter {
   height: 65px;
-  background-color: #ffffff; }
-  .headerFooter h1 {
-    margin: 0px 0 -15px 0;
-    display: inline-block;
-    line-height: 80px;
-    color: #ff4100;
-    font-size: 1.5em; }
-  .headerFooter img {
-    margin: 0; }
-  .headerFooter img:hover {
-    cursor: pointer; }
-  .headerFooter h1:hover {
-    cursor: pointer; }
+  background-color: #ffffff;
+}
+.headerFooter h1 {
+  display: inline-block;
+  color: #ff4100;
+  font-size: 1.5em;
+}
+.headerFooter h1:hover {
+  cursor: pointer;
+}
+.headerFooter img {
+  margin: 0;
+}
+.headerFooter img:hover {
+  cursor: pointer;
+}
 
 /*
 * === SECTIONS ===
@@ -80,164 +84,250 @@ input[type='radio']:checked {
 body {
   background-color: white;
   color: #ff4100;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: center; }
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  padding: 15px;
+}
 
 .mainContainer {
   margin: 0 auto;
-  color: #aeaeae; }
+  color: #aeaeae;
+}
 
 /*
 * === LANDING PAGE ===
 */
 #tagline {
   font-size: 3em;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  #tagline {
+    font-size: 2.5em;
+    margin-bottom: 0;
+  }
+}
 
 .imageGallery {
   height: 75%;
   width: 100%;
   position: relative;
-  margin: 15px 0; }
+  margin: 5% 0;
+}
+.imageGallery img {
+  height: 100%;
+  max-width: 250px;
+  width: 25%;
+  margin: 0 15px;
+}
+@media screen and (max-width: 768px) {
   .imageGallery img {
-    height: 100%;
-    width: 25%;
-    margin: 0 15px; }
-    @media screen and (max-width: 768px) {
-      .imageGallery img {
-        width: 80%;
-        margin: 15px 0; } }
+    margin: 15px 0;
+  }
+}
 
 /*
 * === STEP PAGE: OVERALL ===
 */
 .step-progress {
   color: #ff4100;
-  background-color: white; }
-  .step-progress img {
-    height: 50px;
-    margin: 50px 0; }
+  background-color: white;
+}
+.step-progress img {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 600px;
+}
 
 .directions {
   width: 90%;
   margin: auto;
-  position: relative; }
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .directions h1 {
+    font-size: 1.75em;
+  }
+  .directions h3 {
+    font-size: 1.5em;
+  }
+}
 
 /*
 * === STEP PAGE: ONE ===
 */
 #navImg {
   width: 50%;
-  height: 50%; }
-
-.uploadImageBox {
-  color: grey;
-  display: block;
-  height: 200px;
-  width: 50%;
-  margin: 20px auto;
-  border: 2px solid; }
-  .uploadImageBox img {
-    display: inline-block;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    opacity: 0.5; }
-  @media screen and (max-width: 768px) {
-    .uploadImageBox {
-      width: 80%; }
-      .uploadImageBox #navImg {
-        width: 80%;
-        height: 80%; } }
+  height: 50%;
+}
+@media screen and (max-width: 768px) {
+  #navImg {
+    width: 80%;
+    height: 80%;
+  }
+}
 
 #wholeImg {
-  width: 100%; }
+  width: 100%;
+}
 
 .btn-wrapper {
   position: relative;
   overflow: hidden;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .btn-wrapper input[type=file] {
+  display: none;
   font-size: 100px;
   position: absolute;
   left: 0;
   top: 0;
-  opacity: 0; }
+  opacity: 0;
+}
+
+.btn-wrapper #takePictureField {
+  border: 1px solid #ff4100;
+  border-radius: 25px;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 8px 25px;
+  cursor: pointer;
+}
 
 /*
 * === STEP PAGE: TWO ===
 */
 #meterImg {
   width: 30%;
-  height: 30%; }
+  height: 30%;
+}
 
 .meterTextInfo {
+  display: inline-block;
   width: 30%;
-  margin: auto; }
+  margin: auto;
+}
+.meterTextInfo .form-control {
+  border: 0;
+  border-bottom: 1px solid grey;
+  border-radius: 0;
+  box-shadow: none;
+  outline: 0;
+  background: transparent;
+}
+.meterTextInfo label {
+  color: #ff4100;
+  float: left;
+  font-weight: lighter;
+}
 
-#reviewMeterInfo .meterConfirm {
-  display: block;
-  padding: 15px;
-  border: 2px solid green;
-  margin: 20px 0;
-  border-radius: 5px; }
-
-input[type='number'] {
-  -moz-appearance: textfield; }
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+}
 
 /*
 * === STEP PAGE: THREE ===
 */
 .roofTypeImages {
-  width: 100%; }
-  .roofTypeImages .roof {
-    display: inline-block;
-    margin: 0 15px 50px 15px; }
-    .roofTypeImages .roof img {
-      width: 200px; }
+  width: 100%;
+}
+.roofTypeImages .roof {
+  display: inline-block;
+  margin: 0 15px 50px 15px;
+}
+.roofTypeImages .roof img {
+  width: 200px;
+}
 
 /*
 * === STEP PAGE: REVIEW ===
 */
-.leftPanel {
-  margin-right: 50px;
-  display: inline-block; }
+#panelContainer {
+  display: flex;
+  flex: 2;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.leftPanel, .rightPanel {
+  margin: 10px;
+  text-align: left;
+}
+.leftPanel .box, .rightPanel .box {
+  box-shadow: 3px 3px 3px 3px #CCC;
+  border-radius: 15px;
+  padding: 10px;
+}
+.leftPanel .caption, .rightPanel .caption {
+  clear: both;
+  display: block;
+}
 
 .rightPanel {
-  display: inline-block; }
-
-#reviewRoofType img {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.rightPanel #reviewMeterInfo {
+  flex: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+.rightPanel #reviewMeterInfo .meterConfirm {
+  color: #282828;
+  font-size: 1.25em;
+}
+.rightPanel #shadowAsses {
+  align-self: flex-start;
+  display: flex;
+  flex: 1 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.rightPanel #shadowAsses .caption {
+  width: 100%;
+}
+.rightPanel #shadowAsses img {
   width: 100px;
   height: 100px;
-  margin: 0 15px; }
+}
+
+.footerPanel {
+  flex: 1 100%;
+  padding: 20px;
+}
 
 /*
 * === STEP PAGE: CONFIRMATION ===
 */
 #completeImg {
-  margin: 100px  auto;
+  margin: 10% auto;
   width: 200px;
-  height: 200px; }
-  #completeImg img {
-    width: 100%;
-    height: 100%; }
+  height: 200px;
+}
+#completeImg img {
+  width: 100%;
+  height: 100%;
+}
 
 .topDownImg {
-  margin: 100px  auto;
-  width: 400px;
-  height: 400px; }
-  .topDownImg img {
-    width: 100%;
-    height: 100%; }
+  margin: 25px auto;
+  max-width: 400px;
+  max-height: 400px;
+}
+.topDownImg img {
+  width: 100%;
+  height: 100%;
+}
 
-input[type='number'] {
-  -moz-appearance: textfield; }
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none; }
+/*# sourceMappingURL=src/styles/style.css.map */

@@ -21,9 +21,7 @@ class Step3 extends Component {
         return (
             <div className="mainContainer">
                 <div className='step-progress'>
-                    <br/>
                     <img src="https://i.imgur.com/qwnY4Tp.png"/>
-                    <br/>
                 </div>
 
                 <div className="directions">
